@@ -1,0 +1,355 @@
+body {
+
+    font-family: Lucida Sans Unicode;
+
+    margin: 0px;
+
+}
+
+#main-component {
+
+       border: 1px solid blue;
+
+       height: 200vh;
+
+       background-color: rgb(237, 205, 164);
+
+}
+
+#deal {
+
+       border: 1px solid aqua;
+     
+       width: 80%;
+
+       height: 100vh;
+
+       margin: auto;
+      
+       margin-top: 40px;
+}
+
+
+#deal-text {
+
+      border: 1px solid black;
+
+      display: flex;
+
+      justify-content: center;
+
+}
+
+
+#deal-text > h3 {
+
+    border: 3px solid rgb(251, 251, 251);
+
+    width: 400px;
+
+    display: flex;
+
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background-color: red;
+
+    box-shadow: 2px 2px 10px gray;
+
+    color: aliceblue;
+
+}
+
+
+#component-1 {
+
+    /* height: 260px; */
+
+    background-color: white;
+
+    margin-top: 10px;
+
+    border-radius: 10px;
+
+    display: grid;
+
+    grid-template-columns: repeat(8,1fr);
+
+    padding-right: 20px;
+
+    padding-left: 20px;
+
+    gap: 10px;
+
+    
+
+}
+
+
+.card {
+/* 
+       border: 2px solid red;
+     */
+       margin-top: 25px;
+
+       overflow: hidden;
+
+       margin-bottom: 25px;
+
+}
+
+#image {
+/* 
+    border: 2px solid green; */
+
+    width: 100%;
+
+    overflow: hidden;
+
+    margin-bottom: 10px;
+
+}
+
+
+#image > img {
+
+     width: 100%;
+
+     transition: 0.4s;
+
+}
+
+
+#image > img:hover {
+
+    transform: scale(1.2);
+
+}
+
+
+
+
+.card:hover {
+
+    cursor: pointer;
+
+}
+
+
+.pr-info {
+
+     width: 905;
+/* 
+     border: 1px solid blue; */
+
+     margin-top: -5px;
+
+     margin-left: 5px;
+
+     display: flex;
+
+     flex-direction: column;
+
+
+}
+
+#offer {
+/* 
+    border: 2px solid black; */
+
+    width : 60%;
+
+    margin-top: 0px;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: rgb(253, 66, 66);
+
+    border-radius: 20px;
+
+    height: 15px;
+
+    font-size: 12px;
+
+    margin-bottom: 5px;
+
+}
+
+.pr-info > b {
+
+   /* border: 2px solid green; */
+
+   font-size: 15px;
+
+}
+
+.pr-info > del {
+
+    font-size: 12px;
+
+    color: gray;
+
+}
+
+#left-item {
+
+   /* border: 1px solid black; */
+
+   display: flex;
+
+   justify-content: space-between;
+
+   height: 100%;
+
+}
+
+#left-item > p {
+
+   font-size: 12px;
+
+   margin-top: 0px;
+
+   color: gray;
+   
+}
+
+#left-item > div {
+  
+     /* border: 1px solid green; */
+
+     height: 6px;
+
+     border-radius: 20px;
+
+     margin-top: 10px;
+
+     background-color: rgb(168, 204, 235);
+
+     width: 65%;
+
+
+}
+
+#left-1 {
+
+      height: 100%;
+
+      border-radius: 20px;
+
+      width: 16%;
+
+      background-color: rgb(12, 116, 12);
+
+}
+
+#left-2 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 51%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+#left-3 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 90%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+
+#left-4 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 98%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+#left-5 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 67%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+#left-6 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 23%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+
+#left-7 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 47%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+
+#left-8 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 95%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+
+/* -------------------------[ RESPONSIVE Making OF COMPONENT -- 1 ]------------------------- */
+
+
+
+@media only screen and (max-width: 1202px) {
+
+    *{
+
+
+        background-color: black;
+    }
+
+
+}
+
+
