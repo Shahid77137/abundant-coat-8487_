@@ -1,0 +1,222 @@
+#wizard{
+    display: flex;
+}
+
+.wizard-list{
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+.wizard-item{
+    display: flex;
+    flex-direction: column;
+    padding: 0,20;
+-webkit-box-flex: 1;
+-ms-flex-align:baseline;
+max-width: 100%;
+flex-grow: 1;
+position: relative;
+}
+.wizard-item+.wizard-item:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 19px;
+    background: red;
+    width: 100%;
+    height: 2%;
+    transform: translateX(-50%);
+    z-index: -10%;
+}
+.progress-count{
+    position: relative;
+    background-image: linear-gradient(120deg, #FF4081, #81D4FA);
+}
+.progress-count:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    right: 19px;
+    background: red;
+    width: 40px;
+    height: 40px;
+    transform: translateX(-50%,-50%);
+    z-index: -10%;
+    border-radius: 50%;
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey;
+}
+
+#progressbar .active {
+    color: #000000;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 12px;
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+/*Icons in the ProgressBar*/
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f023";
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007";
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f09d";
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+}
+
+/*ProgressBar before any progress*/
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+}
+
+/*ProgressBar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1;
+}
+
+/*Color number of the step and the connector before it*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: skyblue;
+}
+
+
+
+/* navbar style */
+
+
+#navbar{
+    width: 100%;
+   height: 100px;
+   margin-top: 0%;
+    display: flex;
+    background-color: rgb(54,98,216);
+    justify-content: space-between;
+}
+
+#progressdiv{
+    width: 35%;
+    height: 12%;
+    background-color: rgb(54,98,216);
+}
+
+#imgdiv{
+    width: 25%;
+    background-color: rgb(54,98,216);
+    display: flex;
+}
+
+#imgdiv img{
+    width: 90%;
+    background-color: rgb(54,98,216);
+   
+}
+
+#logodiv{
+    width: 25%;
+    background-color: rgb(54,98,216);
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+}
+#span{
+    color: white;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#logodiv img{
+    width: 25px;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(54,98,216);
+    position: relative;
+}
+
+h3{margin-top: 7%;
+margin-left: 7%;}
+
+table{
+    width: 95%;
+    margin: auto;
+    gap: 5%;
+}
+th{
+    background-color: rgb(241,241,241);
+    height: 40px;
+}
+
+.tableRow{
+    padding-top: 20px;
+    width: 100%;
+}
+
+#lower{
+    display: flex;
+    width: 95%;
+justify-content: space-between;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+margin: auto;
+padding-top: 25px;
+height: 100px;
+}
+#buttondiv{
+    width: 45%;
+    display: flex;
+    justify-content: right;
+   
+}
+#paypal{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255,196,57);
+    border: 0px;
+    color: white;
+    border-radius: 5%;
+}
+#checkout{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0,102,255);
+    margin-left: 5px;
+    border: 0px;
+    color: white;
+    border-radius: 5%;
+}
