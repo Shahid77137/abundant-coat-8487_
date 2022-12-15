@@ -26,7 +26,7 @@ body {
 
        margin: auto;
       
-       margin-top: 40px;
+       margin-top: 15px;
 }
 
 
@@ -341,15 +341,321 @@ body {
 
 
 
-@media only screen and (max-width: 1202px) {
+@media only screen and (max-width: 1937px) {
 
-    *{
+     
+    #deal {
 
+          width: 83%;
 
-        background-color: black;
     }
+
+   
+
+}
+
+@media only screen and (max-width: 1344px) {
+
+     
+    #deal {
+
+          width: 90%;
+
+    }
+
+   
+
+}
+
+@media only screen and (max-width: 1233px) {
+
+     
+    #deal {
+
+          width: 95%;
+
+    }
+
+  
+   
+
+}
+
+@media only screen and (max-width: 1169px) {
+
+     
+    #left-item    {
+
+           flex-direction: column;
+
+    }
+
+   
+
+}
+
+
+@media only screen and (max-width: 1097px) {
+
+    #deal {
+
+        width: 80%;
+
+  }
+    
+#component-1 {
+
+
+     grid-template-columns: repeat(4,1fr);
+
+     gap: 30px ;
+
+     row-gap: 0px;
+
+}
+   
+#left-item    {
+
+    flex-direction:row;
+
+}
+
+#left-item > p {
+
+      margin-right: 10px;
+
+}
+
+
+.card{
+
+    margin-bottom: 0px;
+
+}
+
+}
+
+@media only screen and (max-width: 881px) {
+
+    #deal {
+
+        width: 70%;
+    
+    }
+         
+         
+#component-1 {
+
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 10px ;
+
+    row-gap: 0px;
+
+}
+
+/* 
+.card{
+
+    margin-bottom: 10px;
+
+} */
+    
+
+
+   
+
+}
+
+
+@media only screen and (max-width: 881px) {
+
+    #deal {
+
+        width: 85%;
+
+    }
+         
+    #component-1 {
+    
+    
+        grid-template-columns: repeat(3,1fr);
+    
+        gap: 20px ;
+    
+        row-gap: 0px;
+    
+    }
+    #left-item    {
+
+        flex-direction: row;
+
+ }
+       
+ #left-item  > p{
+
+       margin-top: 4px;
+
+       margin-right: 20px;
+
+ }
+
+ .card{
+
+    margin-bottom: 0px;
+
+}
+    
+    }
+
+
+@media only screen and (max-width: 708px) {
+
+    #left-item  > p{
+
+        margin-right: 8px;
+ 
+  }
+
+
+  
+#deal-text > h3{
+
+      width: 45%;
+
+      font-size: 20px;
 
 
 }
 
+.card{
+
+    margin-bottom: 0px;
+
+}
+         
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 510px) {
+
+    #component-1 {
+    
+    
+        grid-template-columns: repeat(3,1fr);
+    
+        gap: 10px ;
+    
+        row-gap: 0px;
+    
+    }
+
+
+
+    .card{
+
+        margin-bottom: 0px;
+
+ }
+  
+
+
+}
+    
+
+
+
+
+@media only screen and (max-width: 488px) {
+
+    #component-1 {
+    
+    
+        grid-template-columns: repeat(3,1fr);
+    
+        gap: 10px ;
+    
+        row-gap: 0px;
+    
+    }
+
+    #left-item {
+
+        flex-direction: column;
+ 
+  }
+
+  .card{
+
+    margin-bottom: 0px;
+
+}
+  
+
+
+}
+    
+
+
+
+
+
+
+@media only screen and (max-width: 372px) {
+
+    #component-1 {
+    
+    
+        grid-template-columns: repeat(2,1fr);
+    
+        gap: 10px ;
+    
+        row-gap: 0px;
+    
+    }
+
+    #left-item {
+
+        flex-direction: column;
+ 
+  }
+
+  .card{
+
+         margin-bottom: 0px;
+
+  }
+  
+
+
+}
+    
+
+
+@media only screen and (max-width: 641px) {
+
+  
+
+    #left-item {
+
+        flex-direction: column;
+ 
+  }
+
+  .card{
+
+         margin-bottom: 0px;
+
+  }
+  
+
+
+}
 
