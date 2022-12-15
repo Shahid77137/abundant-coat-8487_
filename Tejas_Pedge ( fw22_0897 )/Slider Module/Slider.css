@@ -117,10 +117,6 @@ https://flickity.metafizzy.co
     list-style: none;
     text-align: center;
     line-height: 1;
-    position: absolute;
-    bottom : 10px;
-
-
   }
   
   .flickity-rtl .flickity-page-dots { direction: rtl; }
@@ -130,23 +126,30 @@ https://flickity.metafizzy.co
     width: 10px;
     height: 10px;
     margin: 0 8px;
-    background: rgb(0, 81, 255);
+    background: #333;
     border-radius: 50%;
     opacity: 0.25;
     cursor: pointer;
-
   }
   
   .flickity-page-dots .dot.is-selected {
     opacity: 1;
   }
 
+
+
+
+
+
+
   .carousel{
 
  
     /* border: 2px solid rgb(128, 0, 13); */
 
-         margin-top: 20px;
+    position: relative;
+
+    top: 50px;
 
     
 
@@ -157,9 +160,9 @@ https://flickity.metafizzy.co
 
    /* border: 2px solid green; */
 
-   width: 98%;
+   width: 600px;
 
-   background-color: rgba(117, 192, 229, 0.781);
+   background-color: rgb(20, 20, 77);
 
    text-align: center;
 
@@ -167,7 +170,9 @@ https://flickity.metafizzy.co
 
    position: relative;
 
+
    margin-right: 20px;
+
 
 
   }
@@ -208,7 +213,9 @@ https://flickity.metafizzy.co
             font-weight: 600;
 
             transition: 0.5s;
-            
+
+
+
   }
 
   .carousel-cell > button:hover{
@@ -218,3 +225,52 @@ https://flickity.metafizzy.co
          cursor: pointer;
 
   }
+
+
+/* Slider CSS Part +++++++  2 */
+
+
+
+  
+
+  .carousel-cell{
+
+         width: 90%;
+
+         background-color: rgb(139, 209, 228);
+
+         /* height: 350px; */
+
+         display: flex;
+
+         align-items: center;
+
+  }
+
+  #deal {
+
+           margin-top: 80px;
+
+  }
+
+
+  
+  .flickity-page-dots{
+
+      bottom: 5px;
+
+  }
+
+
+ 
+  .flickity-page-dots .dot {
+
+
+     background-color: rgb(0, 42, 255);
+
+  }
+
+
+/* Responsiveness */
+
+
