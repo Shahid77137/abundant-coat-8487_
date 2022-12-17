@@ -30,7 +30,7 @@
         </ul>
     </div>
 </div>
- <!-- [  cart-section  ] -->
+     <!--  cart-section   -->
 <div id="cart-section">
   <h3>Product Name & Detail</h3>
 <table>
@@ -127,47 +127,126 @@
   </div>
 </div>
 
-<!-- [  checkout-section  ] -->
+<!--   checkout-section   -->
 <div id="checkout-section">
 <h2>Shipping Address</h2>
 <div id="caution"><p>To ensure delivery and prevent delays, please make sure your complete address is in English.</p></div>
 
 <div id="detais">
   <div class="label">
-    <label class="lableltag">First Name:</label>
+    <div class="lableltag"><label class="lablein">First name:</label></div>
   <input type="text" class="input">
   </div>
   
   <div class="label">
-    <label class="lableltag">Last Name:</label>
-  <input type="text" class="input" >
+    <div class="lableltag"><label class="lablein">Last Name:</label></div>
+  <input type="text" class="input">
   </div>
+
+ 
+
   <div class="label">
-    <label class="lableltag">Country/Region</label>
+    <div class="lableltag"><label class="lablein">Country/Region:</label></div>
+  <select type="text" class="input">
+    <option value="India">India</option>
+      <option value="China">China</option>
+      <option value="USA">USA</option>
+      <option value="Australia">Australia</option>
+      
+  </select>
+  </div>
+
+  <div class="label">
+    <div class="lableltag"><label class="lablein">State/Province/County:</label></div>
+    <select type="text" class="input">
+      <option value="Madhya Pradesh">Madhya Pradesh</option>
+      <option value="Andhra Pradesh">Andhra Pradesh</option>
+      <option value="Assam">Assam</option>
+      <option value="Chhattisgarh">Chhattisgarh</option>
+      <option value="Gujarat">Gujarat</option>
+      <option value="Maharashtra">Maharashtra</option>
+      <option value="Punjab">Punjab</option>
+    </select>
+  </div>
+
+  <div class="label">
+    <div class="lableltag"><label class="lablein">City:</label></div>
   <input type="text" class="input">
   </div>
   <div class="label">
-    <label class="lableltag">State/Province/County:</label>
-  <input type="text" class="input">
-  </div>
-  <div class="label">
-    <label class="lableltag">City:</label>
-  <input type="text" class="input">
-  </div>
-  <div class="label">
-    <label class="lableltag">Zip/Postal code:</label>
-  <input type="number" class="input">
-  </div>
-  <div class="label">
-    <label class="lableltag">Address line1:</label>
+    <div class="lableltag"><label class="lablein">Zip/Postal code:</label></div>
   <input type="text" class="input">
   </div>
   
   <div class="label">
-    <label class="lableltag">Address line2:</label>
+    <div class="lableltag"><label class="lablein">Address line2:</label></div>
   <input type="text" class="input">
+  </div>
+
+
+  <div class="label">
+    <div class="lableltag"><label class="lablein">Address line2:</label></div>
+  <input type="text" class="input">
+  </div>
+
+  <div class="label">
+    <div class="lableltag"><label class="lablein">Phone:</label></div>
+  <input type="text" class="input">
+  </div>
+<div id="tag"><input type="checkbox">
+<span>Use as default address</span></div>
+  <div id="buttons">
+    <button>Save</button>
+    <button>Cancel</button>
+  </div>
+
+</div>
+</div>
+<h2>
+  Product List
+</h2>
+
+<div id="shipdiv">
+  <div id="h3div">
+    <h4>Ship from: China ( 2 Items )</h4>
+  </div>
+  <table>
+    <tr>
+      <td id="item-box1">
+        <div id="item-box2"><img id="item-image" src="https://img.gkbcdn.com/p/2019-01-31/tronsmart-element-force-portable-bluetooth-speaker-1571993707403._w280_.jpg">
+          <p id="discription">Tronsmart Force SoundPulse™ 40W Bluetooth 5.0 Speaker IPX7 Water Resistant Siri TWS & NFC 15 Hours Playtime</p></div>
+        </td>
+      <td><span id="price">₹ 4817.20</span></td>
+      <td>x<span id="quantity">1</span></td>
+      <td><span id="total">₹ 4817.20</span></td>
+     
+    </tr>
+  </table>
+  <div id="Shippingd">
+    <h4>Shipping & Delivery</h4>
+    <input type="checkbox"><label>Add Shipping Insurance to your order</label>
+    <p>*Note: The time mentioned above are the shipping days by couriers, not including the order processing days by our warehouse.</p>
   </div>
 </div>
+
+
+
+
+<div id="priceDiv">
+  <div id="leftdiv">
+    <p>Coupon:</p>
+    <div>
+      <input id="coupan" type="text" placeholder="Please choose your coupen code">
+      <button id="applay">Apply</button>
+    </div>
+  </div>
+
+  <div id="rightdiv">
+      <div><p>items:</p><p><span>₹ 9634.40</span></p></div>
+      <div><p>shipping Cost:</p><p><span>₹ 0</span></p></div>
+      <div><p>Grand Total:</p><h3>₹ 9634.40</h3></div>
+     <button><h3>Place Your Order</h3></button>
+  </div>
 </div>
   <div id="footer">
     <img src="https://content1.geekbuying.com/V1.4/en/images/shopcart_footicon.png">
