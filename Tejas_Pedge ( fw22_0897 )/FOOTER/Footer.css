@@ -1,0 +1,367 @@
+*{
+
+      font-family: "Open Sans",sans-serif,Arial,Helvetica;
+
+   margin: 0px;
+}
+
+
+/* =============================================== */
+
+        /* FOOTER CSS STARTS FROM HERE */
+
+/* =============================================== */
+
+.foot-down {
+
+      border: 2px solid blue;
+
+      margin-top: 94px;
+
+      height: 86.8vh;
+
+      background-color: #f1f6fd;
+
+}
+
+.why-buy {
+/* 
+      border: 2px solid red; */
+
+      display: flex;
+
+      justify-content: center;
+
+      margin-top: 18px;
+
+}
+
+
+.heading-foot {
+
+       /* border: 2px solid red; */
+
+       text-align: center;
+
+       color: #06f;
+
+       font-size: 16px;
+
+       font-weight: bold;
+
+       cursor: pointer;
+
+
+}
+
+.heading-foot:after {
+
+      content: "+";
+
+      color: #06f;
+
+      font-size: 18px;
+
+      width: 14px;
+
+      text-align: center;
+
+      margin-left: 40px;
+
+
+}
+
+
+.💳 {
+
+      border-top: 1.2px solid #cad8ea;
+
+      border-bottom: 1.2px solid #cad8ea;
+
+      margin-top: 19px;
+
+      display: flex;
+
+      justify-content: center;
+
+      padding: 34px;
+
+}
+
+.💳 > input {
+
+      height: 46px;
+
+      width: 580px;
+
+      text-indent: 10px;
+
+      border-radius: 4px 0 0 4px;
+
+      border: 2px solid #06f;
+
+      border-right: none;
+
+}
+
+.💳 > input:focus {
+
+      outline: none;
+
+}
+
+
+.💳 > div {
+
+      width: 112px;
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      height: 52px;
+
+      font-size: 16px;
+
+      color: white;
+
+      border-radius: 0 4px 4px 0;
+
+      background-color: #06f;
+      
+      cursor: pointer;
+
+}
+
+.info-sect {
+
+      border: 2px solid green;
+
+      /* height: 200px; */
+
+      width: 80%;
+
+      margin: auto;
+
+      margin-top: 40px;
+
+      display: flex;
+
+      justify-content: space-between;
+
+}
+
+.info-sect > table {
+
+      border: 2px solid rgb(255, 0, 0);
+
+}
+
+.HSP-sect {
+
+      border: 2px solid blue;
+
+      width: 42%;
+
+      display: grid;
+
+      grid-template-columns: repeat(3,1fr);
+
+      gap: 33px;
+
+}
+
+.Help {
+
+      /* border: 2px solid aqua; */
+
+}
+
+.Help > strong,a {
+
+      margin: 10px;
+
+      font-size: 14px;
+
+      display: block;
+   
+}
+
+.Help > a {
+
+      font-size: 12px;
+
+      color: #46474a;
+
+      text-decoration: none;
+  
+}
+
+.connect-us {
+
+      border: 2px solid red;
+
+      width: 48%;
+
+      display: flex;
+
+      justify-content: space-between;
+
+}
+
+.QR-code {
+
+      border: 2px solid violet;
+
+      width: 48%;
+
+}
+
+.QR-code > strong {
+
+      margin: 10px;
+
+      font-size: 14px;
+
+      display: block;
+
+}
+
+.QR-imgs {
+
+      border: 2px solid black;
+
+      /* height: 120px; */
+
+      display: flex;
+
+      justify-content: space-between;
+
+}
+
+.QR-parent {
+
+      border: 2px solid yellow;
+
+      width: 119px;
+
+      margin-left: 4px;
+
+}
+
+.QR-parent > img{
+
+      width: 100%;
+
+}
+
+.download-from {
+
+      border: 2px solid red;
+
+      width: 45%;
+
+      margin-right: 14px;
+
+}
+
+
+.download-from > img {
+
+      width: 100%;
+
+      border-radius: 8px;
+ 
+}
+
+.social-media {
+
+      border: 2px solid rgb(55, 255, 222);
+
+      /* height: 200px; */
+
+}
+
+.social-media > strong {
+
+      margin: 10px;
+
+      font-size: 14px;
+
+      display: block;
+
+}
+
+.S-media-imgs {
+
+      border: 2px solid blueviolet;
+
+      /* height: 100px; */
+
+      display: flex;
+
+      justify-content: space-evenly;
+     
+
+}
+
+.social-m-images {
+
+      border: 2px solid black;
+
+
+}
+
+.social-m-images > img {
+
+      cursor: pointer;
+
+      width: 80%;
+ 
+}
+
+.chat-us {
+
+      border: 2px solid saddlebrown;
+
+      width: 36%;
+
+      margin-top: 31px;
+
+}
+
+.chat-1 {
+
+      border: 2px solid green;
+
+      display: flex;
+
+      /* justify-content: center; */
+
+      align-items: center;
+
+      height: 20px;
+
+      margin-bottom: 20px;
+
+}
+
+
+.chat-1 > p {
+
+     color: #46474a;
+
+     font-size: 14px;
+
+     margin-left: 10px;
+
+}
+
+
+.chat-1 > img {
+
+      width: 10%;
+
+}
