@@ -14,11 +14,11 @@
 
 .foot-down {
 
-      border: 2px solid blue;
+      /* border: 2px solid blue; */
 
       margin-top: 94px;
 
-      height: 86.8vh;
+      height: 87vh;
 
       background-color: #f1f6fd;
 
@@ -48,6 +48,8 @@
        font-size: 16px;
 
        font-weight: bold;
+
+       margin-top: 20px;
 
        cursor: pointer;
 
@@ -137,7 +139,7 @@
 
 .info-sect {
 
-      border: 2px solid green;
+      /* border: 2px solid green; */
 
       /* height: 200px; */
 
@@ -161,7 +163,7 @@
 
 .HSP-sect {
 
-      border: 2px solid blue;
+      /* border: 2px solid blue; */
 
       width: 42%;
 
@@ -201,7 +203,7 @@
 
 .connect-us {
 
-      border: 2px solid red;
+      /* border: 2px solid red; */
 
       width: 48%;
 
@@ -213,7 +215,7 @@
 
 .QR-code {
 
-      border: 2px solid violet;
+      /* border: 2px solid violet; */
 
       width: 48%;
 
@@ -231,7 +233,7 @@
 
 .QR-imgs {
 
-      border: 2px solid black;
+      /* border: 2px solid black; */
 
       /* height: 120px; */
 
@@ -243,7 +245,7 @@
 
 .QR-parent {
 
-      border: 2px solid yellow;
+      /* border: 2px solid yellow; */
 
       width: 119px;
 
@@ -259,7 +261,7 @@
 
 .download-from {
 
-      border: 2px solid red;
+      /* border: 2px solid red; */
 
       width: 45%;
 
@@ -278,7 +280,7 @@
 
 .social-media {
 
-      border: 2px solid rgb(55, 255, 222);
+      /* border: 2px solid rgb(55, 255, 222); */
 
       /* height: 200px; */
 
@@ -296,7 +298,7 @@
 
 .S-media-imgs {
 
-      border: 2px solid blueviolet;
+      /* border: 2px solid blueviolet; */
 
       /* height: 100px; */
 
@@ -309,7 +311,7 @@
 
 .social-m-images {
 
-      border: 2px solid black;
+      /* border: 2px solid black; */
 
 
 }
@@ -324,7 +326,7 @@
 
 .chat-us {
 
-      border: 2px solid saddlebrown;
+      /* border: 2px solid saddlebrown; */
 
       width: 36%;
 
@@ -334,7 +336,7 @@
 
 .chat-1 {
 
-      border: 2px solid green;
+      /* border: 2px solid green; */
 
       display: flex;
 
@@ -344,7 +346,7 @@
 
       height: 20px;
 
-      margin-bottom: 20px;
+      margin-bottom: 17px;
 
 }
 
@@ -359,9 +361,109 @@
 
 }
 
-
 .chat-1 > img {
 
       width: 10%;
+
+}
+
+.popular-searches {
+
+      /* border: 2px solid burlywood; */
+
+      width: 80%;
+
+      margin: auto;
+
+}
+
+.popular-searches > strong {
+
+      margin: 10px;
+
+      font-size: 14px;
+
+      display: block;
+
+}
+
+.p-searches {
+
+      /* border: 2px solid red; */
+
+      height: 20px;
+
+}
+
+
+.p-searches > a {
+
+      /* border: 2px solid black; */
+
+      padding: 4px 10px;
+
+      font-size: 13px;
+
+      display: inline;
+
+      margin-right: 0px;
+
+      text-decoration: none;
+
+      color: #999;
+
+      background-color: #fcfdfe;
+
+      border-radius: 4px;
+
+}
+
+.company-logos {
+
+      /* border: 2px solid green; */
+
+      width: 80%;
+
+      margin: auto;
+
+      margin-top: 40px;
+
+      height: 60px;
+
+      display: grid;
+
+      grid-template-columns: repeat(16,75px);
+
+}
+
+.company-logos > div {
+
+      /* border: 2px solid red; */
+
+}
+
+.company-logos > div > img {
+
+    width: 100%;
+
+
+}
+
+.©️ {
+
+      border-top: 1.2px solid #cad8ea;
+
+      height: 50px;
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      color: #46474a;
+
+      font-size: 13px;
+
 
 }
