@@ -242,7 +242,7 @@ width: 98%;
    /* --cart-section---/ */
 
 #cart-section{
-    display: none;
+    display:block;
 }
 
 #caution{
