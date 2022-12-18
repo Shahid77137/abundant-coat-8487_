@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #container2{
+        #container4{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
-    gap: 10px;
-    margin-top: 2%;
+    gap: 8px;
+    /* margin-top: 2%; */
    } 
-   #container2>div{
+   #container4>div{
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
     text-align: center;
    }
-   #container2>div:hover{
+   #container4>div:hover{
     cursor: pointer;
     background-color: rgb(218, 193, 159);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     
    }
-   #container2>div>img{
+   #container4>div>img{
     width:70%;
    }
-   #container2>div>img:hover{
+   #container4>div>img:hover{
     width: 75%;
    }
    button{
@@ -43,33 +43,35 @@
     font-weight: bold;
     background-color: rgb(57, 79, 121);
    }
-  
+
+ 
 /* Medium screens */
 @media all and (min-width: 451px) and (max-width: 750px) {
-#container2{
+#container4{
     grid-template-columns: repeat(2,1fr); 
 }
 }
 /* Small screens */
 @media all and (min-width: 100px) and (max-width: 450px) {
-#container2{
+#container4{
     grid-template-columns: repeat(1,1fr); 
 }
 }
     </style>
 </head>
 <body>
-    <div id="container2"></div>
+    <div id="container4"></div>
 </body>
 </html>
 <script>
-  let items2 = JSON.parse(localStorage.getItem("cartproduct2"));
-    console.log(items2)
-    displayTable(items2);
 
-function displayTable(array){
+let items4 = JSON.parse(localStorage.getItem("cartproduct4"));
+    console.log(items4)
+    displayTable(items4);
+
+    function displayTable(array){
     console.log(array)
-    document.querySelector("#container2").innerHTML="";
+    document.querySelector("#container4").innerHTML="";
     array.forEach((element) => {
                 
     let div=document.createElement("div")
@@ -81,7 +83,7 @@ function displayTable(array){
     // name.innerText=element.name;
 
     let detail=document.createElement("p")
-    detail.innerText=element.pro_title.substring(1,50);
+    detail.innerText=element.pro_detail.substring(1,50);
 
     let id=document.createElement("h4")
     id.innerText=`id: ${element.id}`;
@@ -95,12 +97,12 @@ function displayTable(array){
     // let shiping=document.createElement("p")
     // shiping.innerText=`ship: ${element.free_ship}`;
 
-
+    
+  
 
     div.append(img,detail,id,price,review)
-    document.querySelector("#container2").append(div)
-    });   
-    // localStorage.clear("cartproduct2")
+    document.querySelector("#container4").append(div)
+    });  
+     // localStorage.clear("cartproduct4") 
 }
-
 </script>

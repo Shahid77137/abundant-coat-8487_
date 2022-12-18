@@ -1,24 +1,24 @@
-#container1{
+#container3{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
-    gap: 10px;
-    margin-top: 2%;
+    gap: 8px;
+    /* margin-top: 2%; */
    } 
-   #container1>div{
+   #container3>div{
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
     text-align: center;
    }
-   #container1>div:hover{
+   #container3>div:hover{
     cursor: pointer;
     background-color: rgb(218, 193, 159);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     
    }
-   #container1>div>img{
+   #container3>div>img{
     width:70%;
    }
-   #container1>div>img:hover{
+   #container3>div>img:hover{
     width: 75%;
    }
    button{
@@ -47,13 +47,13 @@
  
 /* Medium screens */
 @media all and (min-width: 451px) and (max-width: 750px) {
-#container1{
+#container3{
     grid-template-columns: repeat(2,1fr); 
 }
 }
 /* Small screens */
 @media all and (min-width: 100px) and (max-width: 450px) {
-#container1{
+#container3{
     grid-template-columns: repeat(1,1fr); 
 }
 }

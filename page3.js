@@ -1,66 +1,19 @@
-// console.log("hello world")
-
-
-
-
-
 let bag=[];
-let cartitem=JSON.parse(localStorage.getItem("cartproduct"))||[];
+let cartitem = JSON.parse(localStorage.getItem("cartproduct3"))||[];
 
-let url = "https://636b32aeb10125b78fed84ae.mockapi.io/Instuments";
+let url = "https://636b32aeb10125b78fed84ae.mockapi.io/Page-3"
 fetch(url)
 .then((res) =>  res.json())
 .then((data) => {
-    bag = data;
-    // console.log(data)
+    bag = data
+    console.log(data)
     displayTable(data)
 })
 .catch((err) => alert("something went wrong"))
 
-function Sortingid(){
-    let sorted = document.querySelector("#id").value
-    if(sorted == "LTH"){
-       bag.sort((a,b)=>a.id-b.id);
-    }
-   if(sorted=="HTL") {
-        bag.sort((a,b)=>b.id-a.id);
-    }
-    displayTable(bag)
-}
-
-function Sorting(){
-    let sorted = document.querySelector("#price").value
-    if(sorted == "LTH"){
-       
-       bag.sort((a,b)=> {
-
-        let val = +(a.price.replace("€",""));
-
-        let val2 = +(b.price.replace("€",""));
-        
-         return val-val2;
-    
-    }  );
-    }
-   if(sorted == "HTL") {
-            
-    bag.sort((a,b)=> {
-    let val = +(a.price.replace("€",""));
-
-    let val2 = +(b.price.replace("€",""));
-    
-     return val2-val;
-    });
-       
-    }
-    displayTable(bag)
-}
-
-
-
 function displayTable(array){
-    // console.log(array)
-    document.querySelector("#container1").innerHTML="";
+    console.log(array)
+    document.querySelector("#container3").innerHTML="";
     array.forEach((element) => {
                 
     let div=document.createElement("div")
@@ -68,8 +21,8 @@ function displayTable(array){
     let img=document.createElement("img")
     img.setAttribute("src",element.image)
 
-    let name=document.createElement("h5")
-    name.innerText=element.name;
+    // let name=document.createElement("h5")
+    // name.innerText=element.name;
 
     let detail=document.createElement("p")
     detail.innerText=element.pro_detail.substring(1,50);
@@ -111,7 +64,7 @@ function displayTable(array){
             alert("Item added to the cart")
 
             cartitem.push(element)
-            localStorage.setItem("cartproduct",JSON.stringify(cartitem))
+            localStorage.setItem("cartproduct3",JSON.stringify(cartitem))
 
 
         }
@@ -120,8 +73,7 @@ function displayTable(array){
         
     })
 
-    div.append(img,name,detail,id,price,review,shiping,button)
-    document.querySelector("#container1").append(div)
+    div.append(img,detail,id,price,review,shiping,button)
+    document.querySelector("#container3").append(div)
     });   
 }
-
