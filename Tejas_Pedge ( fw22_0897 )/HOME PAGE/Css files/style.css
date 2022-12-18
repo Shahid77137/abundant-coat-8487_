@@ -8,9 +8,9 @@ body {
 
 #main-component {
 
-       border: 1px solid blue;
+       /* border: 1px solid blue; */
 
-       /* height: 900vh; */
+       height: 600vh;
 
        background-color: rgb(237, 205, 164);
 
@@ -18,7 +18,7 @@ body {
 
 #deal {
 
-       border: 1px solid aqua;
+       /* border: 1px solid aqua; */
      
        width: 80%;
 
