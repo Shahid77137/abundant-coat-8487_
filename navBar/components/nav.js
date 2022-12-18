@@ -2,9 +2,9 @@ let navBar = function (){
 return `  <div id="navbar">
 <div id="topOfTheNav">
   <div id="saveBigWithApp">
-    <img src="images\mobile.png" alt="" />
+    <img src="images/mobile.png" alt="" />
     <span>Save $50 with app</span>
-    <img src="images\expandDown.png" alt="" />
+    <img src="images/expandDown.png" alt="" />
 
     <!-- // drop down  -->
     <div id="saveBigWithAppDropDown">
@@ -220,7 +220,7 @@ return `  <div id="navbar">
         </div>
       </div>
       <div id="AddToCartOnNav">
-        <img src="images/cart.png" alt="" />
+        <a href="cartNav.html"><img src="images/cart.png" alt="" /></a>
         <span id="cartCount">0</span>
         <div id="indivCartNav"></div>
       </div>
