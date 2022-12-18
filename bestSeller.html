@@ -4,27 +4,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Seller</title>
+    <title>Document</title>
     <link rel="stylesheet" href="bestSeller.css">
 </head>
-
 <body>
+   
     <div id="best">
-        <h1> Best Seller
-        </h1>
-     </div>
-     <div id="main">
-         <div id="category">
-             <h3>All Categories</h3>
-             <select style="width: 100%; border: 0;">
-                 <option value="">Sports & Outdoor</option>
-             </select>
-         </div>
-         
-             <!-- <div></div> -->
-             <div id="container"></div>
-         
-     </div>
+       <h1> Best seller       </h1>
+    </div>
+    <div id="load">
+        <img src="https://media.tenor.com/UnFx-k_lSckAAAAM/amalie-steiness.gif" alt="">
+    </div>
+    <div id="main">
+        <div id="category">
+            <h3>All Categories</h3>
+
+            <select style="width: 100%; border: 0;">
+                <option value="">Sports & Outdoor</option>
+                <option value="">Fitness & Bodybuilding</option>
+                <option value="">Water Sports</option>
+                <option value="">Bikes</option>
+                <option value="">Electric Scooters</option>
+                <option value="">Electric Skateboard</option>
+                <option value="">Other Outdoor Gear</option>
+                <option value="">Bike Bags</option>
+                <option value="">Bike Tools</option>
+                <option value="">other Accessories</option>
+                <option value="">Weightlifting</option>
+                <option value="">Cardio</option>
+                <option value="">Indoor Games</option>
+                <option value="">Portable Power Stations</option>
+                <option value="">Solar Panel</option>
+            </select>
+
+            <select style="width: 100%; border: 0;">
+            <option value="">Consumer Electronics</option>
+            <option value="">Earbud Headphones</option>
+            <option value="">Sports & Fitness Headphones</option>
+            <option value="">Headphone Accessories</option>
+            <option value="">FDM 3D Printers</option>
+            <option value="">Accessories</option>
+            <option value="">Nintendo</option>
+            <option value="">Xbox</option>
+            <option value="">Raspberry Pi</option>
+            <option value="">Power Stations</option>
+            </select>
+
+            <select style="width: 100%; border: 0;">
+            <option value="">Computers,Tablets & Accessories</option>
+            <option value="">Android Tablets</option>
+            <option value="">Keyboards</option>
+            <option value="">Other Gadgets</option>
+            <option value="">Wireless Keyboards</option>
+            <option value="">Wireless Mouse</option>
+            <option value="">SSD & HDD & Enclousers</option>
+            <option value="">Microphones</option>
+            <option value="">Keyboard & Mice Kit</option>
+            <option value="">Gaming Laptops</option>
+            <option value="">Graphic Cards</option>
+            <option value="">Monitors</option>
+            </select>
+
+            <select style="width: 100%; border: 0;">
+            <option value="">Smart Home & Garden</option>
+            <option value="">Robot Vaccum Cleaners</option>
+            <option value="">Cordless Vaccum Cleaners</option>
+            <option value="">Cookware</option>
+            <option value="">Personal Care</option>
+            <option value="">Oral Care</option>
+            <option value="">LED Outdoor Lights</option>
+            <option value="">Home Smart Improvements</option>
+            <option value="">Health Care</option>
+            <option value="">Others</option>
+            <option value="">Household Cleaning Supplies</option>
+            <option value="">Face Care</option>
+        </select>
+
+        <select style="width: 100%; border: 0;">
+        <option value="">Toys & Hobbies</option>
+        <option value="">RC Quadcopter</option>
+        <option value="">RC Cars</option>
+        <option value="">RC Airplanes</option>
+        <option value="">OTher Hobbies</option>
+        </select>
+
+        <select style="width: 100%; border: 0;">
+        <option value="">TV Boxes & Mini PCs</option>
+        </select>
+
+        <select style="width: 100%; border: 0;">
+        <option value="">Wearable Devices</option>
+        </select>
+
+        <select style="width: 100%; border: 0;">
+        <option value="">Automobiles & Motorcycles</option>
+        </select>
+
+        <select style="width: 100%; border: 0;">
+        <option value="">Security System</option></select>
+
+        <select style="width: 100%; border: 0;">
+        <option value="">Phones & Accessories</option></select>
+        </div>
+        <div>
+            <div id="func">
+                <div style="display: flex; gap: 15px;">
+                    <p class="grey">New Arrived:</p>
+                    <button>7 Days</button>
+                    <button>15 Days</button>
+                    <button>30 Days</button>
+                </div>
+                <div style="display: flex; gap: 15px;">
+                    <p class="grey">Filter:</p>
+                    <select style="width: 10%; border: 0;">
+                        <option value="">Ship From </option>
+                    </select>
+                    <label class="box">
+                        <input type="checkbox" >On Sale
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="box">
+                        <input type="checkbox" >Free Shipping Only
+                        <span class="checkmark"></span>
+                      </label>
+                      <p>Price :</p>
+                      <button>Min</button>
+                      <p>-</p>
+                      <button>Max</button>
+                </div>
+                <div style="display: flex; gap: 15px;">
+                    <p class="grey">Sort By:</p>
+                    <button>Best Match</button>
+                    <button>New Arrival</button>
+                    <button id="lth">
+                        Price low to high 
+                    </button>
+                    <button id="htl">
+                        Price high to low
+                    </button>
+                </div>
+            </div>
+            <div id="container"></div>
+          
+        </div>
+    </div>
+    
 </body>
-<script src="bestSeller.js"></script>
+<script src="bestSeller.js" type="module"></script>
 </html>
