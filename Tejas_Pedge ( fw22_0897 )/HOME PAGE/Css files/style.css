@@ -1,0 +1,1859 @@
+body {
+
+    font-family: Lucida Sans Unicode;
+
+    margin: 0px;
+
+}
+
+#main-component {
+
+       border: 1px solid blue;
+
+       /* height: 900vh; */
+
+       background-color: rgb(237, 205, 164);
+
+}
+
+#deal {
+
+       border: 1px solid aqua;
+     
+       width: 80%;
+
+       height: 600vh;
+
+       margin: auto;
+      
+       margin-top: 15px;
+}
+
+
+#deal-text {
+/* 
+      border: 1px solid black; */
+
+      display: flex;
+
+      justify-content: center;
+
+}
+
+
+#deal-text > h3 {
+
+    border: 3px solid rgb(251, 251, 251);
+
+    width: 400px;
+
+    display: flex;
+
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background-color: red;
+
+    box-shadow: 2px 2px 10px gray;
+
+    color: aliceblue;
+
+}
+
+
+#component-1 {
+
+    /* height: 260px; */
+
+    background-color: white;
+
+    margin-top: 10px;
+
+    border-radius: 10px;
+
+    display: grid;
+
+    grid-template-columns: repeat(8,1fr);
+
+    padding-right: 20px;
+
+    padding-left: 20px;
+
+    gap: 10px;
+
+    
+
+}
+
+
+.card {
+/* 
+       border: 2px solid red;
+     */
+       margin-top: 25px;
+
+       overflow: hidden;
+
+       margin-bottom: 25px;
+
+}
+
+#image {
+/* 
+    border: 2px solid green; */
+
+    width: 100%;
+
+    overflow: hidden;
+
+    margin-bottom: 10px;
+
+}
+
+
+#image > img {
+
+     width: 100%;
+
+     transition: 0.4s;
+
+}
+
+
+#image > img:hover {
+
+    transform: scale(1.2);
+
+}
+
+
+
+
+.card:hover {
+
+    cursor: pointer;
+
+}
+
+
+.pr-info {
+
+     width: 905;
+/* 
+     border: 1px solid blue; */
+
+     margin-top: -5px;
+
+     margin-left: 5px;
+
+     display: flex;
+
+     flex-direction: column;
+
+
+}
+
+#offer {
+/* 
+    border: 2px solid black; */
+
+    width : 60%;
+
+    margin-top: 0px;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: rgb(253, 66, 66);
+
+    border-radius: 20px;
+
+    height: 15px;
+
+    font-size: 12px;
+
+    margin-bottom: 5px;
+
+}
+
+.pr-info > b {
+
+   /* border: 2px solid green; */
+
+   font-size: 15px;
+
+}
+
+.pr-info > del {
+
+    font-size: 12px;
+
+    color: gray;
+
+}
+
+#left-item {
+
+   /* border: 1px solid black; */
+
+   display: flex;
+
+   justify-content: space-between;
+
+   height: 100%;
+
+}
+
+#left-item > p {
+
+   font-size: 12px;
+
+   margin-top: 0px;
+
+   color: gray;
+   
+}
+
+#left-item > div {
+  
+     /* border: 1px solid green; */
+
+     height: 6px;
+
+     border-radius: 20px;
+
+     margin-top: 10px;
+
+     background-color: rgb(168, 204, 235);
+
+     width: 65%;
+
+
+}
+
+#left-1 {
+
+      height: 100%;
+
+      border-radius: 20px;
+
+      width: 16%;
+
+      background-color: rgb(12, 116, 12);
+
+}
+
+#left-2 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 51%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+#left-3 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 90%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+
+#left-4 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 98%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+#left-5 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 67%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+#left-6 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 23%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+
+#left-7 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 47%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+
+#left-8 {
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    width: 95%;
+
+    background-color: rgb(12, 116, 12);
+
+}
+
+
+/* -------------------------[ RESPONSIVE Making OF COMPONENT -- 1 ]------------------------- */
+
+
+
+@media only screen and (max-width: 1937px) {
+
+     
+    #deal {
+
+          width: 83%;
+
+    }
+
+    
+  .carousel-cell{
+
+        width: 100px;
+
+  }
+   
+
+}
+
+@media only screen and (max-width: 1344px) {
+
+     
+    #deal {
+
+          width: 90%;
+
+    }
+
+   
+
+}
+
+@media only screen and (max-width: 1233px) {
+
+     
+    #deal {
+
+          width: 95%;
+
+    }
+
+  
+   
+
+}
+
+@media only screen and (max-width: 1169px) {
+
+     
+    #left-item    {
+
+           flex-direction: column;
+
+    }
+
+   
+
+}
+
+
+@media only screen and (max-width: 1097px) {
+
+    #deal {
+
+        width: 80%;
+
+  }
+    
+#component-1 {
+
+
+     grid-template-columns: repeat(4,1fr);
+
+     gap: 30px ;
+
+     row-gap: 0px;
+
+}
+   
+#left-item    {
+
+    flex-direction:row;
+
+}
+
+#left-item > p {
+
+      margin-right: 10px;
+
+}
+
+
+.card{
+
+    margin-bottom: 0px;
+
+}
+
+}
+
+@media only screen and (max-width: 881px) {
+
+    #deal {
+
+        width: 70%;
+    
+    }
+         
+         
+#component-1 {
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 10px ;
+
+    row-gap: 0px;
+
+}
+    
+/* 
+.card{
+
+    margin-bottom: 10px;
+
+} */
+    
+
+
+   
+
+}
+
+
+@media only screen and (max-width: 881px) {
+
+    #deal {
+
+        width: 85%;
+
+    }
+         
+    #component-1 {
+    
+    
+        grid-template-columns: repeat(3,1fr);
+    
+        gap: 20px ;
+    
+        row-gap: 0px;
+    
+    }
+    #left-item    {
+
+        flex-direction: row;
+
+ }
+       
+ #left-item  > p{
+
+       margin-top: 4px;
+
+       margin-right: 20px;
+
+ }
+
+ .card{
+
+    margin-bottom: 0px;
+
+}
+    
+    }
+
+
+@media only screen and (max-width: 708px) {
+
+    #left-item  > p{
+
+        margin-right: 8px;
+ 
+  }
+
+
+  
+#deal-text > h3{
+
+      width: 45%;
+
+      font-size: 20px;
+
+
+}
+
+.card{
+
+    margin-bottom: 0px;
+
+}
+         
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 510px) {
+
+    #component-1 {
+    
+    
+        grid-template-columns: repeat(3,1fr);
+    
+        gap: 10px ;
+    
+        row-gap: 0px;
+    
+    }
+
+
+
+    .card{
+
+        margin-bottom: 0px;
+
+ }
+  
+
+
+}
+    
+
+
+
+
+@media only screen and (max-width: 488px) {
+
+    #component-1 {
+    
+    
+        grid-template-columns: repeat(3,1fr);
+    
+        gap: 10px ;
+    
+        row-gap: 0px;
+    
+    }
+
+    #left-item {
+
+        flex-direction: column;
+ 
+  }
+
+  .card{
+
+    margin-bottom: 0px;
+
+}
+  
+
+
+}
+    
+
+
+
+
+
+
+@media only screen and (max-width: 372px) {
+
+    #component-1 {
+    
+    
+        grid-template-columns: repeat(2,1fr);
+    
+        gap: 10px ;
+    
+        row-gap: 0px;
+    
+    }
+
+    #left-item {
+
+        flex-direction: column;
+ 
+  }
+
+  .card{
+
+         margin-bottom: 0px;
+
+  }
+  
+
+
+}
+    
+
+
+@media only screen and (max-width: 641px) {
+
+  
+
+    #left-item {
+
+        flex-direction: column;
+ 
+  }
+
+  .card{
+
+         margin-bottom: 0px;
+
+  }
+  
+
+
+}
+
+
+
+
+/* =============================================== */
+
+   /* COMPONENT : 2 sTYLING STARTS FROM HERE */
+
+/* =============================================== */
+
+
+
+#deal-text  {
+
+      margin-top: 40px;
+
+      margin-bottom: 20px;
+
+}
+
+
+#Component-2 {
+/* 
+   border: 2px solid green; */
+
+   /* height: 320px; */
+
+   display: grid;
+
+   grid-template-columns: repeat(3,1fr);
+
+   gap: 20px;
+
+}
+
+#tej-1 {
+
+     /* border: 2px solid red; */
+     
+     height: 100%;
+
+     background-color: white;
+
+ 
+}
+
+#tej-1 > img {
+
+   width: 100%;
+
+}
+
+
+#tej-1 > h5 {
+
+      color:  rgb(4, 100, 141);
+
+      margin-left: 10px;
+
+      margin-top: 10px;
+
+      font-size: 18px;
+
+}
+
+#tej-1 > p {
+
+    color:  rgb(4, 100, 141);
+
+    margin-left: 10px;
+
+    font-size: 15px;
+/* 
+    margin-right: 10px; */
+
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* REsponsiveness of Component - 2 */
+
+
+@media only screen and (min-width : 469px) and (max-width : 768px ) {
+     
+     
+#Component-2 {
+
+      grid-template-columns: repeat(2,1fr);
+
+}
+
+.tej-3{
+
+    position: relative;
+
+    left: 50%;
+
+}
+
+ 
+}
+
+
+
+
+
+@media only screen and (max-width : 469px ) {
+     
+     
+    #Component-2 {
+    
+          grid-template-columns: repeat(1,1fr);
+    
+    }
+ 
+    
+    }
+
+
+    @media only screen and (max-width : 538px ) {
+     
+     
+        #deal-text > h3 {
+
+           
+                 width: 300px;
+               
+ 
+
+        }
+     
+        
+        }
+
+
+
+
+/* =============================================== */
+
+   /* COMPONENT : 3 STYLING STARTS FROM HERE */
+
+/* =============================================== */
+
+
+
+
+
+#component-3{
+/* 
+      border: 2px solid yellow; */
+
+      width: 100%;
+
+      padding: 20px;
+
+      border-radius: 10px;
+
+      background-color: white;
+
+      display: flex;
+
+
+}
+
+
+.carousel-2 {
+
+     width: 80%;
+
+     margin-top: -50px;
+
+     margin-left: 25px ;
+
+     height: 348px;
+}
+
+
+.carousel-cell-2 {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+ 
+  border-radius: 5px;
+  /* counter-increment: carousel-cell; */
+
+}
+
+.carousel-cell-2.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.carousel-cell-2:before {
+  display: block;
+  text-align: center;
+  /* content: counter(carousel-cell); */
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+#slider-2 {
+/* 
+    border: 3px solid gray; */
+
+    width: 280px;
+
+    height: 100%;
+
+    background-color: white;
+
+    padding: 0px;
+
+    position: relative;
+
+    left: 20px;
+
+
+
+}
+
+#slider-2 > img {
+
+    /* border: 2px solid green; */
+
+     width: 240px;
+
+     box-shadow: none;
+
+     margin-top: 0px;
+
+     position: absolute;
+
+     top: 2px;
+
+     left: 18px;
+
+}
+
+#slider-2 > p {
+
+    position: inherit;
+
+    top: 250px;
+
+    text-align:left;
+
+}
+
+
+
+#slider-2 > h5 {
+
+    position: inherit;
+
+    top: 300px;
+
+    text-align:left;
+
+}
+
+
+
+
+.flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+    
+    border: 2px solid green;
+
+    visibility: hidden;
+  }
+  
+  .flickity-rtl .flickity-page-dots { direction: rtl; }
+  
+  .flickity-page-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    background: #333;
+    border-radius: 50%;
+    opacity: 0;
+    cursor: pointer;
+
+    border: 2px solid green;
+  }
+  
+  .flickity-page-dots .dot.is-selected {
+    opacity: 0;
+    
+    border: 2px solid green;
+  }
+
+
+
+
+
+/*  COMPONENT 3 RESponsiveness */
+
+
+
+
+@media only screen and (max-width : 781px){
+
+       
+#component-3 {
+
+       flex-direction: column;
+
+       
+       height: 1200px;
+
+}
+
+#component-3 > img {
+
+       margin-bottom: 20px;
+
+}
+
+
+}
+
+
+@media only screen and (max-width : 772px){
+
+       
+    #component-3 {
+    
+           flex-direction: column;
+    
+           
+           height: 1180px;
+    
+    }
+ 
+    
+    }
+
+
+    
+
+@media only screen and (max-width : 725px){
+
+       
+    #component-3 {
+    
+           flex-direction: column;
+    
+           
+           height: 1140px;
+    
+    }
+ 
+    
+    }
+
+
+    
+@media only screen and (max-width : 675px){
+
+       
+    #component-3 {
+    
+           flex-direction: column;
+    
+           
+           height: 1080px;
+    
+    }
+ 
+    
+    }
+
+
+
+    @media only screen and (max-width : 684px){
+
+       
+        #component-3 {
+        
+               flex-direction: column;
+        
+               
+               height: 1080px;
+        
+        }
+     
+        
+        }
+
+
+
+    @media only screen and (max-width : 627px){
+
+       
+        #component-3 {
+        
+               flex-direction: column;
+        
+               
+               height: 1020px;
+        
+        }
+     
+        
+        }
+
+
+
+        
+    @media only screen and (max-width : 550px){
+
+       
+        #component-3 {
+        
+               flex-direction: column;
+        
+               
+               height: 940px;
+        
+        }
+     
+        
+        }
+
+
+              
+    @media only screen and (max-width : 510px){
+
+       
+        #component-3 {
+        
+               flex-direction: column;
+        
+               
+               height: 910px;
+        
+        }
+     
+        
+        }
+
+
+
+        @media only screen and (max-width : 483px){
+
+       
+            #component-3 {
+            
+                   flex-direction: column;
+            
+                   
+                   height: 890px;
+            
+            }
+         
+            
+            }
+
+
+            
+        @media only screen and (max-width : 455px){
+
+       
+            #component-3 {
+            
+                   flex-direction: column;
+            
+                   
+                   height: 850px;
+            
+            }
+         
+            
+            }
+
+
+
+            @media only screen and (max-width : 402px){
+
+       
+                #component-3 {
+                
+                       flex-direction: column;
+                
+                       
+                       height: 800px;
+                
+                }
+             
+                
+                }
+
+
+    
+                @media only screen and (max-width : 360px){
+
+       
+                    #component-3 {
+                    
+                           flex-direction: column;
+                    
+                           
+                           height: 730px;
+                    
+                    }
+                 
+                    
+                    }
+
+
+
+    
+                    @media only screen and (max-width : 328px){
+
+       
+                        #component-3 {
+                        
+                               flex-direction: column;
+                        
+                               
+                               height: 700px;
+                        
+                        }
+                     
+                        
+                        }
+
+
+
+    
+                        @media only screen and (max-width : 280px){
+
+       
+                            #component-3 {
+                            
+                                   flex-direction: column;
+                            
+                                   
+                                   height: 650px;
+                            
+                            }
+                         
+                            
+                            }
+
+
+                            @media only screen and (max-width : 202px){
+
+       
+                                #component-3 {
+                                
+                                       flex-direction: column;
+                                
+                                       
+                                       height: 550px;
+                                
+                                }
+                             
+                                
+                                }
+
+
+/* =============================================== */
+
+   /* COMPONENT : 4 STYLING STARTS FROM HERE */
+
+/* =============================================== */
+
+
+#component-4 {
+/* 
+    border: 2px solid red; */
+
+    width: 100%;
+
+    /* height: 510px; */
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 10px;
+
+
+}
+
+
+.enjoy-1 {
+
+     
+    /* border: 2px solid blue; */
+
+    /* height: 510px; */
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+ 
+
+}
+
+.enjoy-1 > img {
+
+   width: 100%;
+
+}
+
+
+.Gift-ideas {
+
+       /* border: 2px solid green; */
+
+       width: 100%;
+
+       height: 49%;
+
+       padding: 10px;
+
+       background-color: white;
+
+       border-radius: 10px;
+
+       padding-bottom: 0px;
+
+       padding-top: 5px;
+
+}
+
+
+.gift-img-1 {
+
+      /* border: 2px solid yellow; */
+
+      width: 100%;
+
+      height: 88%;
+
+      display: flex;
+
+      justify-content: space-between;
+}
+
+
+
+.gift-img-1 > div  {
+
+   
+      /* border: 2px solid black; */
+
+      width: 48%;
+
+      height: 100%;
+
+    
+
+}
+
+
+
+.gift-img-1 > div > img {
+
+     width: 100%;
+
+     border-radius: 15px;
+
+     /* box-shadow: 1px 1px 10px gray; */
+
+}
+
+
+.gift-img-1 > div > p {
+
+    color: rgb(5, 117, 209);
+
+}
+
+
+/* Responsiveness of component 4 */
+
+
+
+@media only screen and (max-width : 974px) {
+    
+
+    #component-4 {
+
+          grid-template-columns: repeat(1,1fr);
+
+    }
+ 
+    
+/* .gift-img-1 {
+
+
+      width: 50%;
+
+} */
+
+
+
+.enjoy-1 {
+    
+    align-items: center;
+
+
+}
+.enjoy-1 > img {
+
+    width: 55%;
+
+     
+}
+   
+/* .enjoy-1 > img {
+
+     width: 55%;
+
+     position: relative;
+
+     left: 105px;
+
+} */
+
+}
+
+
+@media only screen and (max-width : 370px) {
+   
+    .gift-img-1 {
+
+          flex-direction: column;
+
+          align-items: center;
+
+    }
+
+
+
+}
+
+
+@media only screen and (max-width : 447px) {
+   
+    .enjoy-1 > img {
+   
+        left: 70px;
+   
+   }
+
+
+}
+
+
+
+
+
+/* =============================================== */
+
+   /* COMPONENT : 5 STYLING STARTS FROM HERE */
+
+/* =============================================== */
+
+
+#component-5 {
+
+   /* border: 2px solid green; */
+
+   height: 445px;
+
+     
+}
+
+
+#see-more {
+/* 
+  border: 2px solid green; */
+
+  width: 100%;
+
+  display: flex;
+
+  justify-content: flex-end;
+
+  margin-top: -20px;
+
+
+}
+
+
+#see-more > a {
+
+    text-decoration: none;
+
+}
+
+#see-more > a >  p {
+
+    margin: 0px;
+
+    color: rgb(0, 136, 255);
+
+     margin-right: 20px;
+
+}
+
+
+.carousel-3 {
+
+/* 
+    border: 2px solid red; */
+
+    margin-top: -50px;
+
+    height: 100%;
+
+}
+
+.carousel-cell-3 {
+
+/* 
+   border: 2px solid yellow; */
+
+   height: 100%;
+
+}
+
+#carousel-cell-3 {
+
+   width: 297px;
+
+   padding: 10px;
+
+   flex-direction: column;
+
+   background-color: white;
+
+   padding-top: 30px;
+
+   border-radius: 20px;
+
+}
+
+
+#images {
+/* 
+    border: 2px solid yellow; */
+
+    width: 90%;
+
+    margin-top: -10px;
+
+
+}
+
+ 
+#images > img {
+
+   
+    width: 100%;
+
+
+}
+
+
+.product-sect {
+/* 
+    border: 2px solid brown; */
+
+    width: 100%;
+
+    height: 100%;
+
+    text-align: left;
+  
+
+}
+
+
+#off-2 {
+
+  /* border: 2px solid green; */
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding-left: 5px;
+
+  border-radius: 10px;
+
+  width: 80px;
+
+  text-align: center;
+
+   height: 19px;
+
+   font-size: 13px;
+
+   margin-top: 5px;
+
+   background-color: rgb(232, 57, 57);
+
+   color: white;
+
+}
+
+.product-sect  > p {
+
+     text-align: left;
+
+     /* border: 2px solid red; */
+
+     margin-bottom: 0px;
+
+     margin-top: 5px;
+
+}
+
+
+#ratingss {
+
+       /* border: 2px solid red; */
+
+       display: flex;
+
+       margin-top: 7px;
+
+}
+
+#ratingss > p {
+
+   color: gray;
+
+   margin-left: 5px;
+
+   margin-bottom: 0px;
+}
+
+.product-sect > h5 {
+
+     margin-bottom: 0px;
+
+     margin-top: 5px;
+   
+}
+
+
+.product-sect > del {
+
+   color: gray;
+
+}
+
+
+
+
+
+/* =============================================== */
+
+   /* COMPONENT : 6 STYLING STARTS FROM HERE */
+
+/* =============================================== */
+
+
+
+.popular-b > h3 {
+
+   margin-top: 60px;
+
+}
+
+
+#component-6 {
+
+   /* border: 2px solid red; */
+
+   /* height: 305px; */
+
+   padding: 15px;
+
+   display: flex;
+
+   justify-content: space-between;
+
+   background-color: white;
+
+   border-radius: 15px;
+
+   margin-bottom: 25px;
+
+}
+
+
+#popular-imgs {
+
+    /* border: 2px solid green; */
+
+    width: 38%;
+
+
+}
+ 
+
+#popular-imgs > img {
+
+     width: 100%;
+
+}
+
+#popular-prod {
+
+   /* border: 2px solid blue; */
+
+   width: 60.5%;
+
+   display: grid;
+
+   grid-template-columns: repeat(4,1fr);
+
+   gap: 15px;
+
+
+}
+
+
+.prod-1 {
+
+     /* border: 2px solid red; */
+
+}
+
+.prod-1 > img {
+
+     width: 100%;
+
+}
+
+
+.pop-prod > p {
+
+      font-size: 14px;
+
+}
+
+
+.pop-prod > h5 {
+
+    font-size: 18px;
+
+}
+
+
+.pop-prod > del {
+
+    font-size: 15px
+
+}
+
+
+
+/* Responsiveness of component-6 */
+
+
+@media only screen and (max-width: 1127px ) {
+    
+
+    
+#component-6 {
+
+     flex-direction: column;
+
+     align-items: center;
+
+}
+
+
+
+#popular-prod {
+
+
+         width: 100%;
+
+         margin-top: 20px;
+
+}
+
+}
+
+
+
+@media only screen and (max-width: 1127px ) {
+   
+    #popular-prod {
+    
+          grid-template-columns: repeat(2,1fr);
+    
+    }
+
+
+   
+    #deal {
+
+    height: 650vh;
+
+    }
+    
+    
+#popular-imgs{
+
+
+      width: 98%;
+
+}
+
+    
+.pop-prod > p {
+
+    font-size: 16px;
+
+}
+
+
+.pop-prod > h5 {
+
+  font-size: 20px;
+
+}
+
+
+.pop-prod > del {
+
+  font-size: 18px
+
+}
+
+
+    }
+    
+
+
+
+    
+@media only screen and (max-width: 558px ) {
+   
+    #popular-prod {
+    
+          grid-template-columns: repeat(1,1fr);
+    
+    }
+    
+    #popular-prod {
+
+          width: 80%;
+
+
+    }
+
+
+    #popular-imgs{
+
+
+        width: 80%;
+  
+  }
+
+    }
+    
+
+
+
+    
+
+
+/* =============================================== */
+
+   /* COMPONENT : 7 STYLING STARTS FROM HERE */
+
+/* =============================================== */

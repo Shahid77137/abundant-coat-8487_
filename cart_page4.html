@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 8px;
+    /* margin-top: 2%; */
+   } 
+   #container4>div{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    text-align: center;
+   }
+   #container4>div:hover{
+    cursor: pointer;
+    background-color: rgb(218, 193, 159);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+   }
+   #container4>div>img{
+    width:70%;
+   }
+   #container4>div>img:hover{
+    width: 75%;
+   }
+   button{
+    width: 150px;
+    height: 25px; 
+    background-color: rgb(170, 187, 182);
+    border-radius: 20px;
+    margin-bottom: 5%;
+    
+   }
+   button:hover{
+    cursor: pointer;
+    color: rgb(51, 9, 9);
+    font-weight: bold;
+    background-color: rgb(57, 79, 121);
+   }
+
+ 
+/* Medium screens */
+@media all and (min-width: 451px) and (max-width: 750px) {
+#container4{
+    grid-template-columns: repeat(2,1fr); 
+}
+}
+/* Small screens */
+@media all and (min-width: 100px) and (max-width: 450px) {
+#container4{
+    grid-template-columns: repeat(1,1fr); 
+}
+}
+    </style>
+</head>
+<body>
+    <div id="container4"></div>
+</body>
+</html>
+<script>
+
+let items4 = JSON.parse(localStorage.getItem("cartproduct4"));
+    console.log(items4)
+    displayTable(items4);
+
+    function displayTable(array){
+    console.log(array)
+    document.querySelector("#container4").innerHTML="";
+    array.forEach((element) => {
+                
+    let div=document.createElement("div")
+
+    let img=document.createElement("img")
+    img.setAttribute("src",element.image)
+
+    // let name=document.createElement("h5")
+    // name.innerText=element.name;
+
+    let detail=document.createElement("p")
+    detail.innerText=element.pro_detail.substring(1,50);
+
+    let id=document.createElement("h4")
+    id.innerText=`id: ${element.id}`;
+    
+    let price=document.createElement("h4")
+    price.innerText=`Price:- ${element.price}`;
+
+    let review=document.createElement("h4")
+    review.innerText=`rating: ${element.review_num}`;
+
+    // let shiping=document.createElement("p")
+    // shiping.innerText=`ship: ${element.free_ship}`;
+
+    
+  
+
+    div.append(img,detail,id,price,review)
+    document.querySelector("#container4").append(div)
+    });  
+     // localStorage.clear("cartproduct4") 
+}
+</script>

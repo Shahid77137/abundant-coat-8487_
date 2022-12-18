@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page1.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <h1 id="id">shahid is here</h1> -->
+    <!-- <input oninput="Add_cart()" type="text" placeholder="search productshere" ><br><br> -->
+     
+    <div id="sortprice">
+        <span>
+            <a style="text-decoration: none;" href="./cart_page1.html">Cart Page</a>
+         </span> 
+
+         <select id="id" onchange="Sortingid()">
+            <option value="">search id</option>
+            <option value="LTH">Low To High id</option>
+            <option value="HTL">High To Low id</option>
+         </select>   
+
+        <select id="price" onchange="Sorting()">
+            <option value="">search price</option>
+            <option value="LTH">Low To High price</option>
+            <option value="HTL">High To Low price</option>
+         </select>   
+    </div>
+
+    <div id="container1" ></div>
+    
+</body>
+</html>
+<script src="page1.js"></script>
